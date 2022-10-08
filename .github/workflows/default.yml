@@ -34,7 +34,7 @@ jobs:
         run: |
           go run main.go &
           cd test
-          go test
+          go test -v
 
       # - name: Test Report
       #   uses: dorny/test-reporter@v1

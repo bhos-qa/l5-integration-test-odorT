@@ -33,7 +33,7 @@ func TestHomeEndpoint(t *testing.T) {
 func TestApiEndpoint(t *testing.T) {
 	apiEndpoint := "http://localhost:8080/api"
 	testName := "Api endpoint response matching test"
-	want := regexp.MustCompile("{\"message\":\"[A-Za-z0-9,:;\\-'\"\\s]*}")
+	want := regexp.MustCompile("{\"messsage\":\"[A-Za-z0-9,:;\\-'\"\\s]*}")
 	endpoints := []string{
 		"/commits",
 		"/repos",

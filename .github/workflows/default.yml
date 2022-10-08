@@ -33,6 +33,7 @@ jobs:
       - name: Integration Test
         run: |
           go run main.go &
+          cd test
           go test
 
       # - name: Test Report

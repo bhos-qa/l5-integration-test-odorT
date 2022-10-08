@@ -1,11 +1,13 @@
+// utils package contains all the helper functions for the application that can be used from different packages(src code, test code).
 package utils
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/xeipuuv/gojsonschema"
 	"net/http"
 	"strings"
+
+	"github.com/gorilla/mux"
+	"github.com/xeipuuv/gojsonschema"
 )
 
 func BuildURL(r *http.Request) string {

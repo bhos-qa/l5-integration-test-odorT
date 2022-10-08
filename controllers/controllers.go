@@ -13,6 +13,9 @@ import (
 	"time"
 )
 
+
+// GetRandom is a function that returns a random message based on endpoint request parameter
+// @endpoint can be either "repos", "branches" or "commits"
 func GetRandom(rw http.ResponseWriter, r *http.Request) {
 	var repos = models.RepoModel{}
 	var branches = models.BranchModel{}
@@ -60,6 +63,7 @@ func GetRandom(rw http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// GetInternal will return static text message in json format about internal endpoint
 func GetInternal(rw http.ResponseWriter, r *http.Request) {
 	var response = models.ResponseModel{}
 
@@ -73,6 +77,8 @@ func GetInternal(rw http.ResponseWriter, r *http.Request) {
 	}
 }
 
+// GetResponseTime will calculate the request duration and return the response time in seconds in json format
+// It will request the endpoint of GetRandom function
 func GetResponseTime(rw http.ResponseWriter, r *http.Request) {
 	var endpoint = mux.Vars(r)["endpoint"]
 	var response = models.ResponseModel{}

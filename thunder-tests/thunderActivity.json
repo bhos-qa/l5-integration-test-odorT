@@ -1,0 +1,70 @@
+[
+  {
+    "_id": "bc8a5512-a7ca-4a3b-ba02-de7c0ffe00e1",
+    "colId": "history",
+    "containerId": "",
+    "name": "Home",
+    "url": "http://localhost:8080/home",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-08T07:40:43.051Z",
+    "modified": "2022-10-08T07:41:09.503Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7d022bca-da5a-4c52-b5ac-cc1489489dbc",
+    "colId": "history",
+    "containerId": "",
+    "name": "Random Api",
+    "url": "http://localhost:8080/api/{endpoint}",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-08T07:41:44.296Z",
+    "modified": "2022-10-08T07:42:20.132Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "endpoint",
+        "value": "commits",
+        "isPath": true
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f4f107f1-8caa-40a4-9afc-632bd60dae83",
+    "colId": "history",
+    "containerId": "",
+    "name": "Internal",
+    "url": "http://localhost:8080/api/internal/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-08T07:42:35.386Z",
+    "modified": "2022-10-08T07:42:35.390Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d020794c-efab-4a4a-ba7a-94d7d41ee52b",
+    "colId": "history",
+    "containerId": "",
+    "name": "Calculate Response Time",
+    "url": "http://localhost:8080/api/internal/calculateResponseTime/{endpoint}",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-08T07:43:03.793Z",
+    "modified": "2022-10-08T07:43:39.750Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "endpoint",
+        "value": "branches",
+        "isPath": true
+      }
+    ],
+    "tests": []
+  }
+]

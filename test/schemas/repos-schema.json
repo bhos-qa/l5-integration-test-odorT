@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "default": [],
+  "title": "Root Schema",
+  "items": {
+    "type": "object",
+    "title": "A Schema",
+    "required": [
+      "id",
+      "createdAt",
+      "name"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "title": "The id Schema",
+        "examples": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ]
+      },
+      "createdAt": {
+        "type": "string",
+        "title": "The createdAt Schema",
+        "examples": [
+          "2021-05-16T13:57:15.119Z",
+          "2021-05-16T21:45:33.803Z",
+          "2021-05-17T01:24:03.083Z",
+          "2021-05-17T01:03:43.831Z",
+          "2021-05-17T05:40:14.989Z",
+          "2021-05-16T19:16:30.942Z",
+          "2021-05-17T03:01:18.297Z",
+          "2021-05-17T02:52:51.646Z",
+          "2021-05-17T00:48:53.846Z",
+          "2021-05-17T04:09:46.886Z",
+          "2021-05-16T11:59:18.048Z",
+          "2021-05-16T21:38:37.802Z",
+          "2021-05-16T15:36:28.121Z",
+          "2021-05-17T05:40:37.617Z",
+          "2021-05-17T04:07:37.366Z"
+        ]
+      },
+      "name": {
+        "type": "string",
+        "title": "The name Schema",
+        "examples": [
+          "dolorum-quis-impedit",
+          "numquam-cupiditate-aut",
+          "dolorem-explicabo-aperiam",
+          "voluptas-consequuntur-nihil",
+          "omnis-ut-in",
+          "cumque-in-a",
+          "adipisci-accusantium-voluptatem",
+          "ex-provident-quos",
+          "provident-accusantium-commodi",
+          "modi-aliquam-maiores",
+          "molestiae-maxime-odio",
+          "laborum-reprehenderit-dolore",
+          "aut-ipsum-ut",
+          "aut-maiores-est",
+          "et-vero-qui"
+        ]
+      }
+    },
+    "examples": [{
+      "id": "1",
+      "createdAt": "2021-05-16T13:57:15.119Z",
+      "name": "dolorum-quis-impedit"
+    },
+      {
+        "id": "2",
+        "createdAt": "2021-05-16T21:45:33.803Z",
+        "name": "numquam-cupiditate-aut"
+      },
+      {
+        "id": "3",
+        "createdAt": "2021-05-17T01:24:03.083Z",
+        "name": "dolorem-explicabo-aperiam"
+      },
+      {
+        "id": "4",
+        "createdAt": "2021-05-17T01:03:43.831Z",
+        "name": "voluptas-consequuntur-nihil"
+      },
+      {
+        "id": "5",
+        "createdAt": "2021-05-17T05:40:14.989Z",
+        "name": "omnis-ut-in"
+      },
+      {
+        "id": "6",
+        "createdAt": "2021-05-16T19:16:30.942Z",
+        "name": "cumque-in-a"
+      },
+      {
+        "id": "7",
+        "createdAt": "2021-05-17T03:01:18.297Z",
+        "name": "adipisci-accusantium-voluptatem"
+      },
+      {
+        "id": "8",
+        "createdAt": "2021-05-17T02:52:51.646Z",
+        "name": "ex-provident-quos"
+      },
+      {
+        "id": "9",
+        "createdAt": "2021-05-17T00:48:53.846Z",
+        "name": "provident-accusantium-commodi"
+      },
+      {
+        "id": "10",
+        "createdAt": "2021-05-17T04:09:46.886Z",
+        "name": "modi-aliquam-maiores"
+      },
+      {
+        "id": "11",
+        "createdAt": "2021-05-16T11:59:18.048Z",
+        "name": "molestiae-maxime-odio"
+      },
+      {
+        "id": "12",
+        "createdAt": "2021-05-16T21:38:37.802Z",
+        "name": "laborum-reprehenderit-dolore"
+      },
+      {
+        "id": "13",
+        "createdAt": "2021-05-16T15:36:28.121Z",
+        "name": "aut-ipsum-ut"
+      },
+      {
+        "id": "14",
+        "createdAt": "2021-05-17T05:40:37.617Z",
+        "name": "aut-maiores-est"
+      },
+      {
+        "id": "15",
+        "createdAt": "2021-05-17T04:07:37.366Z",
+        "name": "et-vero-qui"
+      }]
+  },
+  "examples": [
+    [{
+      "id": "1",
+      "createdAt": "2021-05-16T13:57:15.119Z",
+      "name": "dolorum-quis-impedit"
+    },
+      {
+        "id": "2",
+        "createdAt": "2021-05-16T21:45:33.803Z",
+        "name": "numquam-cupiditate-aut"
+      },
+      {
+        "id": "3",
+        "createdAt": "2021-05-17T01:24:03.083Z",
+        "name": "dolorem-explicabo-aperiam"
+      },
+      {
+        "id": "4",
+        "createdAt": "2021-05-17T01:03:43.831Z",
+        "name": "voluptas-consequuntur-nihil"
+      },
+      {
+        "id": "5",
+        "createdAt": "2021-05-17T05:40:14.989Z",
+        "name": "omnis-ut-in"
+      },
+      {
+        "id": "6",
+        "createdAt": "2021-05-16T19:16:30.942Z",
+        "name": "cumque-in-a"
+      },
+      {
+        "id": "7",
+        "createdAt": "2021-05-17T03:01:18.297Z",
+        "name": "adipisci-accusantium-voluptatem"
+      },
+      {
+        "id": "8",
+        "createdAt": "2021-05-17T02:52:51.646Z",
+        "name": "ex-provident-quos"
+      },
+      {
+        "id": "9",
+        "createdAt": "2021-05-17T00:48:53.846Z",
+        "name": "provident-accusantium-commodi"
+      },
+      {
+        "id": "10",
+        "createdAt": "2021-05-17T04:09:46.886Z",
+        "name": "modi-aliquam-maiores"
+      },
+      {
+        "id": "11",
+        "createdAt": "2021-05-16T11:59:18.048Z",
+        "name": "molestiae-maxime-odio"
+      },
+      {
+        "id": "12",
+        "createdAt": "2021-05-16T21:38:37.802Z",
+        "name": "laborum-reprehenderit-dolore"
+      },
+      {
+        "id": "13",
+        "createdAt": "2021-05-16T15:36:28.121Z",
+        "name": "aut-ipsum-ut"
+      },
+      {
+        "id": "14",
+        "createdAt": "2021-05-17T05:40:37.617Z",
+        "name": "aut-maiores-est"
+      },
+      {
+        "id": "15",
+        "createdAt": "2021-05-17T04:07:37.366Z",
+        "name": "et-vero-qui"
+      }]
+  ]
+}

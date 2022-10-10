@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "default": [],
+  "title": "Root Schema",
+  "items": {
+    "type": "object",
+    "title": "A Schema",
+    "required": [
+      "id",
+      "branchId",
+      "createdAt",
+      "message",
+      "entry",
+      "sha"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "title": "The id Schema",
+        "examples": [
+          "1",
+          "51"
+        ]
+      },
+      "branchId": {
+        "type": "string",
+        "title": "The branchId Schema",
+        "examples": [
+          "1"
+        ]
+      },
+      "createdAt": {
+        "type": "string",
+        "title": "The createdAt Schema",
+        "examples": [
+          "2021-05-18T11:56:32.045Z",
+          "2021-05-18T06:38:12.040Z"
+        ]
+      },
+      "message": {
+        "type": "string",
+        "title": "The message Schema",
+        "examples": [
+          "override multi-byte transmitter",
+          "parse back-end hard drive"
+        ]
+      },
+      "entry": {
+        "type": "string",
+        "title": "The entry Schema",
+        "examples": [
+          "commit d5fb726acb308b2306e375773d48a3f27a3a9b93\r\nMerge: 50c89cb ae6ee23\r\nAuthor: Kira Hessel \u003cAnjali_Gulgowski@yahoo.com\u003e\r\nDate: Tue May 18 2021 06:01:47 GMT+0000 (Coordinated Universal Time)\r\n\r\n    reboot primary bandwidth\r\n",
+          "commit 6c85c432fbfaec3743d01f2ab5b5cc9753074400\r\nAuthor: Einar Reichert \u003cMoises13@gmail.com\u003e\r\nDate: Tue May 18 2021 10:59:19 GMT+0000 (Coordinated Universal Time)\r\n\r\n    back up primary alarm\r\n"
+        ]
+      },
+      "sha": {
+        "type": "string",
+        "title": "The sha Schema",
+        "examples": [
+          "183c83d459076b0821ae3ca73248e5c14e4e89d5",
+          "9140f60d1da615d4322e32d86475039c5ab14f40"
+        ]
+      }
+    },
+    "examples": [{
+      "id": "1",
+      "branchId": "1",
+      "createdAt": "2021-05-18T11:56:32.045Z",
+      "message": "override multi-byte transmitter",
+      "entry": "commit d5fb726acb308b2306e375773d48a3f27a3a9b93\r\nMerge: 50c89cb ae6ee23\r\nAuthor: Kira Hessel \u003cAnjali_Gulgowski@yahoo.com\u003e\r\nDate: Tue May 18 2021 06:01:47 GMT+0000 (Coordinated Universal Time)\r\n\r\n    reboot primary bandwidth\r\n",
+      "sha": "183c83d459076b0821ae3ca73248e5c14e4e89d5"
+    },
+      {
+        "id": "51",
+        "branchId": "1",
+        "createdAt": "2021-05-18T06:38:12.040Z",
+        "message": "parse back-end hard drive",
+        "entry": "commit 6c85c432fbfaec3743d01f2ab5b5cc9753074400\r\nAuthor: Einar Reichert \u003cMoises13@gmail.com\u003e\r\nDate: Tue May 18 2021 10:59:19 GMT+0000 (Coordinated Universal Time)\r\n\r\n    back up primary alarm\r\n",
+        "sha": "9140f60d1da615d4322e32d86475039c5ab14f40"
+      }]
+  },
+  "examples": [
+    [{
+      "id": "1",
+      "branchId": "1",
+      "createdAt": "2021-05-18T11:56:32.045Z",
+      "message": "override multi-byte transmitter",
+      "entry": "commit d5fb726acb308b2306e375773d48a3f27a3a9b93\r\nMerge: 50c89cb ae6ee23\r\nAuthor: Kira Hessel \u003cAnjali_Gulgowski@yahoo.com\u003e\r\nDate: Tue May 18 2021 06:01:47 GMT+0000 (Coordinated Universal Time)\r\n\r\n    reboot primary bandwidth\r\n",
+      "sha": "183c83d459076b0821ae3ca73248e5c14e4e89d5"
+    },
+      {
+        "id": "51",
+        "branchId": "1",
+        "createdAt": "2021-05-18T06:38:12.040Z",
+        "message": "parse back-end hard drive",
+        "entry": "commit 6c85c432fbfaec3743d01f2ab5b5cc9753074400\r\nAuthor: Einar Reichert \u003cMoises13@gmail.com\u003e\r\nDate: Tue May 18 2021 10:59:19 GMT+0000 (Coordinated Universal Time)\r\n\r\n    back up primary alarm\r\n",
+        "sha": "9140f60d1da615d4322e32d86475039c5ab14f40"
+      }]
+  ]
+}
